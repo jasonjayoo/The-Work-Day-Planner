@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  /* There will note be many css comment bc these style were premade for us - only descriptions will be noted */
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  /* header/jumbotron stylizations */
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  /* text area specs */
+  .description {
+    white-space: pre-wrap;
+  }
+/* div-time block specs */
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+/* div time block row specs */
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+/* div hour(s) specs */
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    padding-top: 30px;
+  }
+/* gray for past events */
+  .past {
+    background-color: #d3d3d3;
+    color: black;
+  }
+/* red for present events */
+  .present {
+    background-color: #ff6961;
+    color: black;
+  }
+/* green for future events */
+  .future {
+    background-color: #77dd77;
+    color: black;
+  }
+/* button specs */
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
+  }
+/* pseudo code for button hover specs */
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title alt="Work Day Scheduler" title="The title of this webpage is called">Work Day Planner</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3" alt="Work Day Planner" title="This is the heading of the webpage">Work Day Planner</h1>
+      <p class="lead" alt="A simple calendar app for scheduling your work day" title="this is a description of what this web application is for">A simple calendar app for scheduling your work day</p>
+      <!-- created my own unique <p> and span id -->
+      <p alt="Today's Date" title="This is todays date">Today's Date: <span id="Date"></span></p>
+    
+    </header>
+    <div class="container">
+        <!-- each time block div is essentially the same, only differing in term of military time and the civilian time text that renders on the webpage -->
+      <div id="9" class="row time-block">
+        <div class="col-md-1 hour" alt="9am time block" title="9am time block">9AM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 9am event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="10" class="row time-block">
+        <div class="col-md-1 hour" alt="10am time block" title="10am time block">10AM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 10am event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="11" class="row time-block">
+        <div class="col-md-1 hour" alt="11am time block" title="11am time block">11AM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 11am event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="12" class="row time-block">
+        <div class="col-md-1 hour" alt="12pm time block" title="12pm time block">12PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 12pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="13" class="row time-block">
+        <div class="col-md-1 hour" alt="1pm time block" title="1pm time block" alt="event text input area" title="enter your 1pm event here">1PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 1pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="14" class="row time-block">
+        <div class="col-md-1 hour" alt="2pm time block" title="2pm time block">2PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 2pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="15" class="row time-block">
+        <div class="col-md-1 hour" alt="3pm time block" title="3pm time block">3PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 3pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="16" class="row time-block">
+        <div class="col-md-1 hour" alt="4pm time block" title="4pm time block">4PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 4pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+      <div id="17" class="row time-block">
+        <div class="col-md-1 hour" alt="5pm time block" title="5pm time block">5PM</div>
+        <textarea class="col-md-10 description" alt="event text input area" title="enter your 5pm event here"></textarea>
+        <button class="col-md-1 saveBtn btn" alt="Save Button" title="this is a save button">📂</button>
+      </div>
+
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
