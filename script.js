@@ -21,13 +21,16 @@ $(document).ready(function(){
         $('.time-block').each(function(){
             var blockHour = parseInt($(this).attr('id'));
             
-            // this if conditions compares the current time to the class id's set time in order to render the css designated color scheme, if the current time is greater than the set time of that specific div then the text area will render a background color of gray. if the current eauals that specific div's designated time the text area will render red, and if the div's time is in the future it will render green.
+            // this if condition compares the current time to the class id's set time in order to render the css designated color scheme, if the current time is greater than the set time of that specific div then the text area will render a background color of gray. if the current eauals that specific div's designated time the text area will render red, and if the div's time is in the future it will render green.
             if (blockHour < currentHour) {
+                // renders gray background color for text area
                 $(this).addClass('past');
             } else if (blockHour === currentHour){
+                // renders green background color for text area
                 $(this).removeClass('past');
                 $(this).addClass('present');
             } else {
+                // renders red background color for text area
                 $(this).removeClass('past');
                 $(this).removeClass('present');
                 $(this).addClass('future');
