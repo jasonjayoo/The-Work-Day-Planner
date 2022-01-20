@@ -126,8 +126,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## Criteria's met: 
 
-<br>
-
 1. The Work Day Planner meets the criteria's listed in the assignment.
 <br>
 <br>
@@ -153,7 +151,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## HTML - Details:
 
-<br>
 
 1. The HTMl includes bootstrap, fontawesome and googleapi links in the head.
 <br>
@@ -185,7 +182,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## JS - Details:
 
-<br>
 
 1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button click events and input data that was then stored and retrieved via the localStorage setItems and getItems for each timeblock. 
 <br>
