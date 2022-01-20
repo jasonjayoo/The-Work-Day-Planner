@@ -62,7 +62,7 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 <br>
 
-- My classmates: Tyler Welker, Jeoffrey Batangan, and Marcus Lewis were indespensible collaborators during the development of the day planner. They showed me several varied ways in which we could approach this assignment. I thank them all for their contribution to my web development growth.  
+- My classmates: Tyler Welker, Jeoffrey Batangan, and Marcus Lewis were indespensible collaborators during the development of this day planner. They showed me several varied ways in which we could approach this assignment. I thank them all for their contribution to my web development growth.  
 
 <br>
 
@@ -89,22 +89,22 @@ Odd numbered week homework assignment. This weeks homework assignment required u
     <br>
     - The first hurdle was to create a variable that rendered the current day and date using the local clientside data.
     <br>
-    - Then the buttons were tackled next. Console logged the button functions to make sure they were registering the clicks
+    - Then the buttons were tackled next. Console logged the button functions to make sure they were registering the click events.
     <br>
-    - After the buttons were made functional/interactive, the next hurdle was to link the text area (original the input) to the button being clicked. My original approach was to link a specific button to a specific input. However, during the refactoring process my tutor show me a better and more concise way to approach the buttons and link then to the textarea.
+    - After the buttons were made functional/interactive, the next hurdle was to link the text area (originally the input) to the button being clicked. My original approach was to link a specific button to a specific input. However, during the refactoring process my tutor showed me a better and more concise way to approach the buttons and link then to the textarea.
     <br>
-    - Then in terms of my original and refactored approach, setting the text data to the local storage and retrieve it from there remained basically the same except for the difference in the name of the key(s) and value(s).
+    - Then in terms of my original and refactored approach, setting the text data to the local storage and retrieving it from there remained basically the same except for the difference in the name of the key(s) and value(s).
     <br>
     -Lastly the textarea (formerly the input) needed to be color coded so that if the designated time-block was in the past it will render gray, if in the present then red and in the future green. 
     <br>
-    - Making the colors change in reference to the time of day required the add and remove class attributes (interlacing it with the css) in both the original and refactored codes. However the two approached were different from the other in how the remove and add was coded. Both approaches worked, which to me was very exciting and intriguing. 
+    - Making the colors change in reference to the time of day required the add and remove class attributes (interlacing it with the css) in both the original and refactored codes. However the two approaches were different from each other in how they removed and added the classes/attributes. Both approaches worked, which to me was very intriguing and eye opening. 
 
 <br>
 <br>
 
 ## How to Contribute:
 <br>
-    - My github repository is publically viewable. If you would to contribute to the webpage please email me at jasonjayoo@outlook.com with the request and I will add you as a contributor on the repo. 
+    - My github repository is publically viewable. If you would like to contribute to the webpage please email me at jasonjayoo@outlook.com with the request and I will add you as a contributor on the repo. 
 <br>
 <br>
 
@@ -112,7 +112,7 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 <br>
     - Try the work day planner yourself and plan out your day!. 
     <br>
-    - You can test out the webpage on vsc or directly in the inspect window of your browser. 
+    - You can test out the webpage on vsc or directly in the inspect window of your browser (f12). 
 
 <br>
 <br>
@@ -131,7 +131,7 @@ Odd numbered week homework assignment. This weeks homework assignment required u
     <br>
     - When the user clicks on a timeblock they can enter an event.
     <br>
-    - Once the user types in an event and clicks the save button it will save the event info in the local storage.
+    - Once the user types in an event and clicks the save button it will save the event information in the local storage.
     <br>
     - The saved event will continue to persist unless the user changes the event information, in which case the new info will persist.
 
@@ -146,9 +146,9 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 <br>
 2. The base template for the html was used in conjunction with the css base template.
 <br>
-3. Divs using the predesignated class names were created with my own unique id and class names.
+3. Divs using the predesignated class names were added upon with my own unique id and class names.
 <br>
-4. In my original version I created nine divs with labels, input an button. However, with my tutors advice I followed the premade template of a div indicating the time of day instead of a label, and a text area instead of an input.
+4. In my original version I created nine divs with labels, inputs and buttons. However, with my tutors advice I followed the premade template of a div indicating the time of day instead of a label, and a text area instead of an input.
 <br>
 5. Nonetheless, nine separate divs were created for each individual time block. 
 <br>
@@ -158,9 +158,9 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 <br>
 
-1. In my original approach I created my own stylizations for the labels(s), input(s), and button(s). However, in lue of the refactoring where the premade template was utilized the css in essence remained unchanged from what was given to us originally. Understandably, the assignment's purpose is to hone our programming abilities and not styling. Therefore, I had no qualms with returning to the premade template. 
+1. In my original approach I created my own stylizations for the labels(s), input(s), and button(s). However, in lue of the refactoring where the premade template was utilized, the css in essence remained unchanged from what was given to us originally. Understandably, the assignment's purpose is to hone our programming abilities and not styling. Therefore, I had no qualms with returning to the premade template. 
 <br>
-2. Media Queries were added to the original work but was not necessary when using the bootstrap premades. Which made any adjustments to smaller screens moot. 
+2. Media Queries were added to the original work but was not necessary when using the bootstrap premades. Which made any adjustments to smaller screens unnecessary. 
 
 <br>
 <br>
@@ -169,9 +169,9 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 <br>
 
-1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button clicks and input data localStorage setItems and getItems for each timeblock. 
+1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button click events and input data that was then stored and retrieved via the localStorage setItems and getItems for each timeblock. 
 <br>
-2. I placed the date element setting at the top for my own mental organization however, it is a stand alone variable and can be placed pretty much anywhere in the code for it to work.
+2. I placed the date element setting at the top for my own mental organization. However, it is a stand alone variable and can be placed pretty much anywhere in the code for it to work.
 <br>
 3. The ready function that encompasses the entirety of the inactive aspect of the assignment comes next. My original approach was more analog and tackled one timeblock piecemeal. The refactored method was far more efficient.
 <br>
@@ -181,11 +181,12 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 <br>
 6. The date was then set to be save to the localStorage with the time variable as the key and the text area as the value. 
 <br>
-7. The next hurdle was to set the clientside time and connect it was the text area so that depending on the time of day the text area will change from gray (past), red(present), and green(future). 
+7. The next hurdle was to set the clientside time and connect it was the text area so that, depending on the time of day, the text area's background will change from gray (past), red(present), and green(future). 
 <br>
-8. A variable titled 'blockHour' was used to take the time-block class that held military time as a string and with parseInt render it as a integer/number. Which was then compared to the variable 'currentHour' that used the Jquery predesignated operators of moment and hour from the clientside cpu's current time to calculate the present time. 
+8. A variable titled 'blockHour' was created in order to take the time-block class that held military time as a string and with parseInt render it as a integer/number. Which was then compared to the variable 'currentHour' that used the Jquery predesignated operators of moment and hour from the clientside cpu's current time to calculate the present time. 
 <br>
-9. if else conditions were then utilized so that add or remove css stylization classes would be rendered or hidden depending on the time of day for each time block. The function for teh color change depending on the time of day was titled 'timeColor' which was called once the actual variables and conditions were created, in order to call the created function.
+9. 'if else' conditions were then utilized in order to add or remove css stylization classes. These conditions would either add or remove the class stylizations depending on the time of day for each time block. The function for the color change, depending on the time of day, was titled 'timeColor' which was called once the actual variables and conditions were created, in order to call the created function.
+<br>
 10. Finally, the specific div id names/numbers and text area class named 'description' data (aka values) were set to be retrieved from the localStorage to continued to render even when the webpage was refreshed. 
 
 <br>
