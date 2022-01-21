@@ -151,30 +151,24 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## HTML - Details:
 
-
+<br>
 1. The HTMl includes bootstrap, fontawesome and googleapi links in the head.
-<br>
-<br>
+
 2. The base template for the html was used in conjunction with the css base template.
-<br>
-<br>
+
 3. Divs using the predesignated class names were added upon with my own unique id and class names.
-<br>
-<br>
+
 4. In my original version I created nine divs with labels, inputs and buttons. However, with my tutors advice I followed the premade template of a div indicating the time of day instead of a label, and a text area instead of an input.
-<br>
-<br>
+
 5. Nonetheless, nine separate divs were created for each individual time block. 
-<br>
-<br>
+
 
 ## CSS - Details:
 
 <br>
 
 1. In my original approach I created my own stylizations for the labels(s), input(s), and button(s). However, in lue of the refactoring where the premade template was utilized, the css in essence remained unchanged from what was given to us originally. Understandably, the assignment's purpose is to hone our programming abilities and not styling. Therefore, I had no qualms with returning to the premade template. 
-<br>
-<br>
+
 2. Media Queries were added to the original work but was not necessary when using the bootstrap premades. Which made any adjustments to smaller screens unnecessary. 
 
 <br>
@@ -182,34 +176,25 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## JS - Details:
 
-
+<br>
 1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button click events and input data that was then stored and retrieved via the localStorage setItems and getItems for each timeblock. 
-<br>
-<br>
+
 2. I placed the date element setting at the top for my own mental organization. However, it is a stand alone variable and can be placed pretty much anywhere in the code for it to work.
-<br>
-<br>
+
 3. The ready function that encompasses the entirety of the inactive aspect of the assignment comes next. My original approach was more analog and tackled one timeblock piecemeal. The refactored method was far more efficient.
-<br>
-<br>
+
 4. The saveBtn class was set to react to the action of the button being clicked by the user. (this) was utilized to grab the nearest sibling of the saveBtn titled as description to get the value of the text area (aka the users typed event information).
-<br>
-<br>
+
 5. The variable titled 'time' was then affixed to the saveBtn's parent the div id with the different military times as the attributes id.
-<br>
-<br>
+
 6. The date was then set to be save to the localStorage with the time variable as the key and the text area as the value. 
-<br>
-<br>
+
 7. The next hurdle was to set the clientside time and connect it was the text area so that, depending on the time of day, the text area's background will change from gray (past), red(present), and green(future). 
-<br>
-<br>
+
 8. A variable titled 'blockHour' was created in order to take the time-block class that held military time as a string and with parseInt render it as a integer/number. Which was then compared to the variable 'currentHour' that used the Jquery predesignated operators of moment and hour from the clientside cpu's current time to calculate the present time. 
-<br>
-<br>
+
 9. 'if else' conditions were then utilized in order to add or remove css stylization classes. These conditions would either add or remove the class stylizations depending on the time of day for each time block. The function for the color change, depending on the time of day, was titled 'timeColor' which was called once the actual variables and conditions were created, in order to call the created function.
-<br>
-<br>
+
 10. Finally, the specific div id names/numbers and text area class named 'description' data (aka values) were set to be retrieved from the localStorage to continued to render even when the webpage was refreshed. 
 
 <br>
