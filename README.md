@@ -152,6 +152,7 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 ## HTML - Details:
 
 <br>
+
 1. The HTMl includes bootstrap, fontawesome and googleapi links in the head.
 
 2. The base template for the html was used in conjunction with the css base template.
@@ -177,6 +178,7 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 ## JS - Details:
 
 <br>
+
 1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button click events and input data that was then stored and retrieved via the localStorage setItems and getItems for each timeblock. 
 
 2. I placed the date element setting at the top for my own mental organization. However, it is a stand alone variable and can be placed pretty much anywhere in the code for it to work.
