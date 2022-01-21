@@ -130,15 +130,10 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 1. The Work Day Planner meets the criteria's listed in the assignment.
     - The current day is displayed at the top of the calendar (I also added the year - YYYY).
-    <br>
     - When the user scrolls down they are presented with timeblocks for standard business hours.
-    <br>
     - Each timeblock is color coded to indicate whether it is in the past, present or future.
-    <br>
     - When the user clicks on a timeblock they can enter an event.
-    <br>
     - Once the user types in an event and clicks the save button it will save the event information in the local storage.
-    <br>
     - The saved event will continue to persist unless the user changes the event information, in which case the new info will persist.
 
 <br>
