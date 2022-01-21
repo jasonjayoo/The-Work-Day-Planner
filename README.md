@@ -126,23 +126,18 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## Criteria's met: 
 
+<br>
+
 1. The Work Day Planner meets the criteria's listed in the assignment.
-<br>
-<br>
     - The current day is displayed at the top of the calendar (I also added the year - YYYY).
-    <br>
     <br>
     - When the user scrolls down they are presented with timeblocks for standard business hours.
     <br>
-    <br>
     - Each timeblock is color coded to indicate whether it is in the past, present or future.
-    <br>
     <br>
     - When the user clicks on a timeblock they can enter an event.
     <br>
-    <br>
     - Once the user types in an event and clicks the save button it will save the event information in the local storage.
-    <br>
     <br>
     - The saved event will continue to persist unless the user changes the event information, in which case the new info will persist.
 
@@ -150,8 +145,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 <br>
 
 ## HTML - Details:
-
-<br>
 
 1. The HTMl includes bootstrap, fontawesome and googleapi links in the head.
 
@@ -166,7 +159,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## CSS - Details:
 
-<br>
 
 1. In my original approach I created my own stylizations for the labels(s), input(s), and button(s). However, in lue of the refactoring where the premade template was utilized, the css in essence remained unchanged from what was given to us originally. Understandably, the assignment's purpose is to hone our programming abilities and not styling. Therefore, I had no qualms with returning to the premade template. 
 
@@ -177,7 +169,6 @@ Odd numbered week homework assignment. This weeks homework assignment required u
 
 ## JS - Details:
 
-<br>
 
 1. I will skip the boring details of my original JS approach which resulted in 189 lines of code. To put it simply: I created individual button click events and input data that was then stored and retrieved via the localStorage setItems and getItems for each timeblock. 
 
